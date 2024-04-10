@@ -50,8 +50,6 @@ android {
     namespace = "co.touchlab.kmmbridgekickstart.breeds"
 }
 
-addGithubPackagesRepository()
-
 sqldelight {
     databases.create("KMMBridgeKickStartDb") {
         packageName.set("co.touchlab.kmmbridgekickstart.db")
