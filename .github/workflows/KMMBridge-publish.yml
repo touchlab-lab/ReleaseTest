@@ -9,7 +9,7 @@ jobs:
     permissions:
       contents: write
       packages: write
-    uses: touchlab/KMMBridge/.github/workflows/spmbuildpublish.yml.yml@c539c1cedc8f1c9e2a4829221afc9d45a02c3145
+    uses: touchlab/KMMBridge/.github/workflows/spmbuildpublish.yml@c539c1cedc8f1c9e2a4829221afc9d45a02c3145
     with:
       jvmVersion: 17
       versionBaseProperty: LIBRARY_VERSION
