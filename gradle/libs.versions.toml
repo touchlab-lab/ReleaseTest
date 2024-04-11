@@ -6,7 +6,7 @@ compileSdk = "34"
 
 # Dependencies
 kotlin = "1.9.22"
-kxcBridge = "1.0.0-alpha1"
+kmmBridge = "0.6.0-alpha1"
 android-gradle-plugin = "8.2.2"
 coroutines = "1.7.3"
 kotlinx-datetime = "0.5.0"
@@ -82,7 +82,7 @@ android-library = { id = "com.android.library", version.ref = "android-gradle-pl
 android-application = { id = "com.android.application", version.ref = "android-gradle-plugin" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 skie = { id = "co.touchlab.skie", version.ref = "skie" }
-kmmbridge = { id = "co.touchlab.kxcbridge", version.ref = "kxcBridge" }
+kmmbridge = { id = "co.touchlab.kmmbridge", version.ref = "kmmBridge" }
 cocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = "kotlin" }
 
 [bundles]
