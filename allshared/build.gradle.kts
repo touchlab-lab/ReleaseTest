@@ -27,8 +27,6 @@ kotlin {
 }
 
 kmmbridge {
-    gitHubReleaseArtifacts(
-        useExistingRelease = true
-    )
+    gitHubReleaseArtifacts()
     spm()
 }
