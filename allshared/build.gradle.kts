@@ -28,7 +28,5 @@ kotlin {
 
 kmmbridge {
     gitHubReleaseArtifacts()
-    spm {
-        iOS(version = "16.0")
-    }
+    spm()
 }
