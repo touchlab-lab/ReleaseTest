@@ -28,5 +28,8 @@ kotlin {
 
 kmmbridge {
     gitHubReleaseArtifacts()
-    spm()
+    spm {
+        iOS("16")
+        swiftToolsVersion = "5.7"
+    }
 }
