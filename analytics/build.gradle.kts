@@ -19,6 +19,9 @@ kotlin {
     }
 }
 
+// For publishing Android AAR files to GitHub Packages
+addGithubPackagesRepository()
+
 android {
     compileSdk = libs.versions.compileSdk.get().toInt()
 

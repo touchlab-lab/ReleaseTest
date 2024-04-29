@@ -50,6 +50,9 @@ android {
     namespace = "co.touchlab.kmmbridgekickstart.breeds"
 }
 
+// For publishing Android AAR files to GitHub Packages
+addGithubPackagesRepository()
+
 sqldelight {
     databases.create("KMMBridgeKickStartDb") {
         packageName.set("co.touchlab.kmmbridgekickstart.db")
